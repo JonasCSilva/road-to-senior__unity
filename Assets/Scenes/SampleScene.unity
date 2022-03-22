@@ -7734,6 +7734,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 477648, guid: fcd06c9319e99cc4bbee7ce7730d9422, type: 3}
   m_PrefabInstance: {fileID: 413877089}
   m_PrefabAsset: {fileID: 0}
+--- !u!20 &415665257 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 3518373236434868012, guid: db48074b82802ae409194a8b01249f89, type: 3}
+  m_PrefabInstance: {fileID: 3518373236456887876}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &419520197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8488,17 +8493,17 @@ Transform:
   - {fileID: 1248478553}
   - {fileID: 1556105632}
   - {fileID: 1910674731}
-  - {fileID: 1405113152}
   - {fileID: 334954122}
+  - {fileID: 1405113152}
   - {fileID: 44095760}
-  - {fileID: 1520637854}
   - {fileID: 608656968}
   - {fileID: 1143661912}
   - {fileID: 1338486805}
   - {fileID: 1705807159}
+  - {fileID: 1520637854}
   - {fileID: 593672150}
-  - {fileID: 70178027}
   - {fileID: 876934276}
+  - {fileID: 70178027}
   - {fileID: 811700808}
   - {fileID: 1845406971}
   - {fileID: 1227714996}
@@ -16796,6 +16801,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9518016, guid: 841e8e4f1a54c754396b7559d1cc6fad, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 897b34267f422c1499700402763d096e, type: 3}
+    - target: {fileID: 9518016, guid: 841e8e4f1a54c754396b7559d1cc6fad, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f72741028f1a69d4e929ef267ba10c65, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 841e8e4f1a54c754396b7559d1cc6fad, type: 3}
 --- !u!4 &913766733 stripped
@@ -19095,6 +19108,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9581884, guid: 471247d5cf89b2c46bcde0f08524197e, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 897b34267f422c1499700402763d096e, type: 3}
+    - target: {fileID: 9581884, guid: 471247d5cf89b2c46bcde0f08524197e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f72741028f1a69d4e929ef267ba10c65, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 471247d5cf89b2c46bcde0f08524197e, type: 3}
 --- !u!4 &1056527586 stripped
@@ -19962,7 +19983,6 @@ Transform:
   - {fileID: 1327266210}
   - {fileID: 1542935904}
   - {fileID: 2040630218}
-  - {fileID: 1153819556}
   - {fileID: 145577878}
   - {fileID: 651551731}
   - {fileID: 1911243830}
@@ -20194,8 +20214,9 @@ Transform:
   - {fileID: 1952540813}
   - {fileID: 101821605}
   - {fileID: 1074139153}
-  - {fileID: 1990577614}
   - {fileID: 2145432198}
+  - {fileID: 1990577614}
+  - {fileID: 1153819556}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23750,6 +23771,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9571598, guid: 48b470c6a762f60438c631f219257520, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 897b34267f422c1499700402763d096e, type: 3}
+    - target: {fileID: 9571598, guid: 48b470c6a762f60438c631f219257520, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f72741028f1a69d4e929ef267ba10c65, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48b470c6a762f60438c631f219257520, type: 3}
 --- !u!4 &1290548021 stripped
@@ -26369,6 +26398,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9509074, guid: 5e488cfd825ce044395037d93a9d8eb6, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 897b34267f422c1499700402763d096e, type: 3}
+    - target: {fileID: 9509074, guid: 5e488cfd825ce044395037d93a9d8eb6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f72741028f1a69d4e929ef267ba10c65, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e488cfd825ce044395037d93a9d8eb6, type: 3}
 --- !u!4 &1413390340 stripped
@@ -29300,6 +29337,93 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
   m_PrefabInstance: {fileID: 1564342292}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1565232681 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5620423803871715145, guid: db48074b82802ae409194a8b01249f89, type: 3}
+  m_PrefabInstance: {fileID: 3518373236456887876}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1565232682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565232681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 291296152cb41704bb084e0e73ccd05c, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2e5c5e6b-3de9-4b6a-ae53-bb8ed773ac5a
+    m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 17d6f3a6-b68d-4ce0-837b-eea911f06835
+    m_ActionName: Player/Look[/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3b35d6fa-5a51-47ff-b5da-c352a8dc2559
+    m_ActionName: Player/Fire[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ff7414d0-52f2-415d-adae-713a17aeab1e
+    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 313fe283-ab75-459d-ac8f-cfb1d79819c5
+    m_ActionName: UI/Submit[/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8f5a25f5-a5db-48f1-a53b-40bf485e5d22
+    m_ActionName: UI/Cancel[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 558b68cc-dc49-4c1e-b076-34329a2ba83c
+    m_ActionName: UI/Point[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e37ff7ed-871c-4224-b0a8-c212006f4781
+    m_ActionName: UI/Click[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: cf934757-af95-4199-bea2-8f72088e79d5
+    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9689e5d8-90c7-44c0-972f-67490ca6e540
+    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c37634cf-1ca0-49fb-b849-d027f0e7cc01
+    m_ActionName: UI/RightClick[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b97e1bd0-35db-405a-bf17-87f6c3b7cec4
+    m_ActionName: UI/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5108cf4e-4e70-491a-ab3b-61fbd98417e4
+    m_ActionName: UI/TrackedDeviceOrientation
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: Keyboard&Mouse
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 415665257}
 --- !u!1001 &1565769438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34776,6 +34900,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9526412, guid: 6412c6bdd410913469520a05a1632885, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 897b34267f422c1499700402763d096e, type: 3}
+    - target: {fileID: 9526412, guid: 6412c6bdd410913469520a05a1632885, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f72741028f1a69d4e929ef267ba10c65, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6412c6bdd410913469520a05a1632885, type: 3}
 --- !u!4 &1833431611 stripped
@@ -40833,7 +40965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2116900074}
   m_Layer: 0
-  m_Name: Characters
+  m_Name: NPCs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -2,23 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.InputSystem;
 
 public class Mover : MonoBehaviour
 {
-    [SerializeField] Transform target;
-
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (Mouse.current.leftButton.isPressed)
         {
             MoveToCursor();
         }
         UpdateAnimator();
     }
 
-    private void MoveToCursor()
+    void MoveToCursor()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Ray ray = Camera.main.ScreenPointToRay( Mouse.current.position.ReadValue());
         RaycastHit hit;
         bool hasHit = Physics.Raycast(ray, out hit);
         if (hasHit)
@@ -27,7 +26,7 @@ public class Mover : MonoBehaviour
         }
     }
 
-    private void UpdateAnimator()
+    void UpdateAnimator()
     {
         Vector3 velocity = GetComponent<NavMeshAgent>().velocity;
         Vector3 localVelocity = transform.InverseTransformDirection(velocity);
