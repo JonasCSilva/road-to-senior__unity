@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Digital.unity
     guid: 32fa21fc5a08523438030b7e963c02bc
+  - enabled: 1
+    path: Assets/Scenes/Digital2.unity
+    guid: fc80c49718b3cce48b4e58489b9be8fa
+  - enabled: 1
+    path: Assets/Scenes/Digital3.unity
+    guid: 4988379b98984f348bc7a4acddcc0b19
   m_configObjects: {}
