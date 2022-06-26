@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(BoxCollider))]
-[RequireComponent(typeof(AudioSource))]
 
 public class Portal : MonoBehaviour {
  

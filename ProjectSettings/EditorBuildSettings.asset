@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Office.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Digital.unity
+    path: Assets/Scenes/Digital1.unity
     guid: 32fa21fc5a08523438030b7e963c02bc
   - enabled: 1
     path: Assets/Scenes/Digital2.unity
