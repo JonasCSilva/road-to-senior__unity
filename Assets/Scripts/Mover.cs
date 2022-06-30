@@ -6,9 +6,11 @@ using UnityEngine.InputSystem;
 
 public class Mover : MonoBehaviour
 {
+    private DialogueControl dc;
+ 
     void Update()
     {
-        if (Mouse.current.leftButton.isPressed)
+        if (Mouse.current.leftButton.isPressed && (FindObjectOfType<DialogueControl>() == null || !FindObjectOfType<DialogueControl>().dialogueObj.activeSelf))
         {
             MoveToCursor();
         }
