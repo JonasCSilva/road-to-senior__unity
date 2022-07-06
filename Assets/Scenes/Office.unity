@@ -67538,8 +67538,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   speechTxt:
-  - "Ol\xE1 Diego, eu tenho uma miss\xE3o muito importante para voc\xEA!!!"
-  - Resolva esse Quiz!
+  - "Ol\xE1, eu tenho uma miss\xE3o muito importante para voc\xEA!!!"
+  - Resolva esse Desafio!
   actorName: "Secret\xE1ria"
   quizToTeleport: Digital1
 --- !u!1001 &7573662403734595151

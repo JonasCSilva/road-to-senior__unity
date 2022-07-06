@@ -12,4 +12,7 @@ public class Portal : MonoBehaviour {
     void OnTriggerEnter (Collider other) {
         SceneManager.LoadScene(sceneToTeleport);
     }
+    public void doTeleport () {
+        SceneManager.LoadScene("Office");
+    }
 }

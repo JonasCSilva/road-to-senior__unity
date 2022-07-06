@@ -576,6 +576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal Exit
       objectReference: {fileID: 0}
+    - target: {fileID: 8869685178822813793, guid: 81dbc2cd71e585f40a654c65be2cb0d9, type: 3}
+      propertyPath: sceneToTeleport
+      value: Game
+      objectReference: {fileID: 0}
     - target: {fileID: 8944184253885197427, guid: 81dbc2cd71e585f40a654c65be2cb0d9, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -962,7 +966,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-219636
+  m_Name: pb_Mesh-153144
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8396,7 +8400,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-219628
+  m_Name: pb_Mesh-153136
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
