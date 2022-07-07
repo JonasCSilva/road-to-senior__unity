@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace RPG.Core
 {
@@ -35,6 +37,19 @@ namespace RPG.Core
             {
                 GetComponent<SphereCollider>().enabled = false;
             }
+
+            if (gameObject.CompareTag("Player"))
+            {
+                StartCoroutine(LoadOffice());
+            }
+        }
+
+        // CUSTOM
+        IEnumerator LoadOffice()
+        {
+            yield return new WaitForSeconds(4);
+
+            SceneManager.LoadScene("Office");
         }
     }
 }

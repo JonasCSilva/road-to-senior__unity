@@ -13875,6 +13875,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 653360051}
     m_Modifications:
+    - target: {fileID: 2482833953870756165, guid: 2ec62c3f76a55b34fa9a896560efcac0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2482833953870756187, guid: 2ec62c3f76a55b34fa9a896560efcac0, type: 3}
       propertyPath: m_Text
       value: Digital2
@@ -47726,6 +47730,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 653360051}
     m_Modifications:
+    - target: {fileID: 2482833953870756165, guid: 2ec62c3f76a55b34fa9a896560efcac0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2482833953870756187, guid: 2ec62c3f76a55b34fa9a896560efcac0, type: 3}
       propertyPath: m_Text
       value: Digital3
@@ -75212,6 +75220,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 653360051}
     m_Modifications:
+    - target: {fileID: 2482833953870756165, guid: 2ec62c3f76a55b34fa9a896560efcac0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2482833953870756187, guid: 2ec62c3f76a55b34fa9a896560efcac0, type: 3}
       propertyPath: m_Text
       value: Digital1
@@ -75282,7 +75294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7651912582828421470, guid: 2ec62c3f76a55b34fa9a896560efcac0, type: 3}
       propertyPath: speechTxt.Array.data[0]
-      value: "Ol\xE1 Diego, eu tenho uma miss\xE3o muito importante para voc\xEA!!!"
+      value: "Ol\xE1, eu tenho uma miss\xE3o muito importante para voc\xEA!!!"
       objectReference: {fileID: 0}
     - target: {fileID: 7651912582828421470, guid: 2ec62c3f76a55b34fa9a896560efcac0, type: 3}
       propertyPath: speechTxt.Array.data[1]
